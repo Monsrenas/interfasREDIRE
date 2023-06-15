@@ -1,0 +1,105 @@
+table {
+    width: 100%;
+}
+
+table th {
+    background: blue; color:aliceblue
+
+}
+
+table td {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #e495e4;
+  }
+  
+  
+
+td button {
+    color: white;
+}
+
+.botones {
+    width:max-content;
+    font-size: 1em; display:inline-flex;
+    text-align: center;
+    align-content: center; 
+    margin: 0 auto;
+}
+
+.edit {
+    background: rgb(8, 181, 149); margin-right:5px; 
+}
+
+.borra {
+    background:red;
+}
+
+.Mas {
+    color: white;
+
+    width: 20%;
+    border-radius: 100%;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0 auto; 
+    display:inline-block;
+    margin: 2px; 
+    text-decoration: none;
+    cursor: pointer;
+    
+    border-width: 2px;
+    border-style: outset; 
+
+    background:rgb(125, 122, 122);
+}
+
+.GMas {
+    color: white;
+    border-radius: 10%;
+    font-size: 2.6em;
+    text-align: center;
+    margin: 0 auto;  
+    text-decoration: none;
+    cursor: pointer;
+    
+    border-width: 2px;
+    border-style: outset; 
+
+    background:rgb(4, 160, 32);
+    align-items: baseline;
+    text-align: right;
+    
+}
+
+.Suma {
+    top: 0;
+    position: absolute;
+     
+    text-decoration: none;
+    padding: 2px;
+    margin-left: 96%;
+}
+
+.CNombre {
+    text-align: left; padding-right: 50px;
+}
+
+.tab-btn {
+    color: white;
+    background: #aaa7a8;
+    text-decoration: none;
+    cursor: pointer;
+    
+    border-width: 2px;
+    border-style: outset; 
+
+    font-size: 1.4em;
+    padding: 2px;
+}

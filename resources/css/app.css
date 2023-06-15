@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+}
+
+table th {
+    background: blue; color:aliceblue
+
+}
+
+td button {
+    color: white;
+}
+
+.botones {
+    font-size: 1em; display:flex; 
+}
+
+.edit {
+    background: rgb(8, 181, 149); margin-right:5px; 
+}
+
+.borra {
+    background:red;
+}
+
+.CNombre {
+    text-align: left; padding-right: 50px;
+}
